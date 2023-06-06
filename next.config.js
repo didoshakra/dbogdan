@@ -3,6 +3,7 @@
 const nextConfig = {
   images: {
     domains: ["fakestoreapi.com", "i.ibb.co"],
+    // domains: [ "i.ibb.co"],
   },
 }
 

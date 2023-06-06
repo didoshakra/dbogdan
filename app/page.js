@@ -1,9 +1,13 @@
 import Product from "../components/Product";
+import { getAllProducts } from "./api/data"
 
 export default async function Home() {
-  const res = await fetch("https://fakestoreapi.com/products");
-  const products = await res.json();
-  console.log("***------Home()/products=", products)
+    const products = await getAllProducts()
+    //   const body = JSON.parse(JSON.stringify(req.body))
+    //   const user = Users.find((user) => user.email === body.email && user.password === parseInt(body.password))
+//   const res = await fetch("https://fakestoreapi.com/products");
+//   const products = await res.json();
+//   console.log("***------Home()/products=", products)
 
   return (
     // <main className="min-h-screen max-w-7xl mx-auto px-8 xl:px-0 mt-48">

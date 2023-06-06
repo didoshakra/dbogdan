@@ -2,8 +2,7 @@ import Link from "next/link"
 import ProductImage from "./ProductImage"
 
 export default function Product({ product }) {
-  console.log("************Product.js/product=", product)
-  console.log("************Product.js/product.price=", product.price)
+//   console.log("************Product.js/product=", product)
   return (
     <Link
       href={`/product/${product.id}`}
@@ -14,6 +13,7 @@ export default function Product({ product }) {
       </div>
 
       <div className="font-semibold flex items-center justify-between mt-4 mb-1">
+        {/* <p className="w-44 truncate">{product.title}</p> */}
         <p className="w-44 truncate">{product.title}</p>
         <p>${product.price}</p>
       </div>
