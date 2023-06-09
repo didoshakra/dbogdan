@@ -1,6 +1,7 @@
 import ProductImage from "../../../components/ProductImage"
 import { notFound } from "next/navigation"
-import { getProductById } from "../../api/data"
+// import { getProductById } from "../../api/data"
+import { getProductById } from "../../data"
 
 export default async function ProductPage({ params }) {
   try {
@@ -30,4 +31,3 @@ export default async function ProductPage({ params }) {
     notFound()
   }
 }
-
