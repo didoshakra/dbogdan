@@ -12,13 +12,13 @@ export default function Product({ product }) {
         <ProductImage product={product} fill />
       </div>
 
-      <div className="font-semibold flex items-center justify-between mt-4 mb-1">
+      {/* <div className="font-semibold flex items-center justify-between mt-4 mb-1"> */}
+      <div className="font-semibold flex items-center justify-center mt-4 mb-1">
         {/* <p className="w-44 truncate">{product.title}</p> */}
         <p className="w-44 truncate">{product.title}</p>
-        <p>${product.price}</p>
+        {/* <p>${product.price}</p> */}
       </div>
-
-      <p className="italic text-xs w-64 line-clamp-2 text-gray-600">{product.description}</p>
+      {/* <p className="italic text-xs w-64 line-clamp-2 text-gray-600">{product.description}</p> */}
     </Link>
   )
 }
