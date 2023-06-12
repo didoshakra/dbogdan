@@ -7,7 +7,7 @@ export default async function Home() {
   const products = await getAllProducts()
   return (
     // <main className="min-h-screen max-w-7xl mx-auto px-8 xl:px-0 mt-48">
-    <main className="container px-4 mx-auto py-4 ">
+    <main className="container mx-auto py-4 ">
       {/* <HomeSlaider /> */}
       <HomeSlaider1 />
       <section className="flex flex-col py-14 space-y-12 pb-44">
