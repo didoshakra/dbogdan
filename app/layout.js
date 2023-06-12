@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
     // <html lang="en" class="dark">
     <html lang="en" class="light">
       <body className={inter.className}>
-        {/* <HeaderTape /> */}
+        <HeaderTape />
         <Header />
         <main className=" dark:bg-slate-800 min-h-screen max-w-7xl mx-auto px- xl:px-0 mt-28">
           {children}

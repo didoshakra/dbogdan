@@ -17,7 +17,7 @@ const HeaderMenu = () => {
     return menu.map((item, index) => {
       return (
         <li
-          className="hover:underline pr-2.5 whitespace-nowrap text-lg font-sans font-semibold items-center text-green-500"
+          className="hover:underline pr-2.5 whitespace-nowrap text-lg font-sans font-bold items-center text-headMenuText "
           key={index}
         >
           <Link href={item.link}>{item.a}</Link>

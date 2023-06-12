@@ -3,14 +3,8 @@ const HomeSlaider = () => {
     // <section className="home-slider-section">
     <section className="relative h-[650px]">
       {/* елемент слайдеру */}
-      {/* <div className="slider-item image1"> */}
-      {/* <div className="w-full h-full bg-no-repeat bg-cover bg-fixed"
-      style="backgoud-image: url('/images/home/DBVorota1.jpg')"> */}
-      <div
-        className="w-full h-full bg-no-repeat bg-cover bg-fixed"
-        style="backgoud-image: url('/images/home/DBVorota.jpg')"
-      >
-        {/* overlay/перекривати-Робить тінь */}
+      <div className="slider-item image1">
+              {/* overlay/перекривати-Робить тінь */}
         <div className="overlay"></div>
         <div className="slider-text">
           Вироби з нержавійки на замовлення

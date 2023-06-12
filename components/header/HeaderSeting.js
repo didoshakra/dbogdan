@@ -6,39 +6,13 @@ import ThemeSwitcher from "./ThemeSwitcher"
 const HeaderSeting = () => {
 
   return (
-    <div className="headerSeting">
+    // <div className="headerSeting">
+    <div className="h-16 flex justify-between items-center">
       {/* Іконки головного меню Seting */}
-      <div className="headerSeting_larg">
+      <div className="invisible md:visible">
         {/* тема */}
         <ThemeSwitcher />
       </div>
-
-      <style jsx>
-        {`
-          .headerSeting {
-            /*padding: 10px; /*Поля*/
-            height: 64px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            // background: ${theme.colors.headMobileBackground};
-            background: ${theme.colors.headBackground};
-          }
-          .headerSeting_larg {
-            display: none;
-          }
-
-          @media (min-width: 960px) {
-            .headerSeting_larg {
-              display: flex;
-            }
-
-            .headerSeting {
-              background: ${theme.colors.headBackground};
-            }
-          }
-        `}
-      </style>
     </div>
   )
 }
