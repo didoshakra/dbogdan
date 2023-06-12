@@ -9,12 +9,11 @@ export default function Header() {
 
 
   return (
-    // <header className="flex items-center px-4 md:px-12 py-2 justify-between fixed top-0 w-full bg-white z-50 shadow">
-    // <header className="flex items-center justify-between fixed top-10 h-16 w-full bg-white z-50 ">
-    <header className="px-2 dark:bg-slate-800 flex justify-between items-center  fixed top-12 md:top-6 h-16 w-full bg-white z-50 ">
-      <div className="flex items-center justify-begin min-w-[250px] ">
+    // <header className="px-2 dark:bg-slate-800 flex justify-between items-center  fixed top-12 md:top-6 h-16 w-full bg-white z-50 ">
+    <header className="px-0 dark:bg-slate-800 flex justify-between items-center w-full fixed top-12 md:top-6 h-16 bg-white z-50 ">
+      {/* <div className="flex items-center justify-begin min-w-[250px] "> */}
         <HeaderLogo />
-      </div>
+      {/* </div> */}
       <div className="flex items-center justify-end">
         {/*рядок меню */}
         <HeaderMenu />
