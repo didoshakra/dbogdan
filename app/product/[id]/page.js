@@ -16,7 +16,7 @@ export default async function ProductPage({ params }) {
         <ProductImage product={product} />
 
         <div className="divide-y">
-          <div className="space-y-2 pb-8">
+          <div className="space-y-2 pb-4">
             <h1 className="text-2xl md:text-4xl font-bold">{product.title}</h1>
             <h2 className="text-gray-500 font-bold text-xl md:text-3xl">${product.price}</h2>
           </div>

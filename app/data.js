@@ -86,7 +86,7 @@ export const PRODUCTS = [
   },
   {
     id: 9,
-    title: "Тераса1",
+    title: "Тераса",
     image: "/images/products/DBTerasa1.jpg",
     // description: "Виготовлений з труб @20. і 15. Опуклі в зовнішню сторону. ВІдшліфовані.",
     // price: 20.0,

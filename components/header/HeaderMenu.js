@@ -17,7 +17,7 @@ const HeaderMenu = () => {
     return menu.map((item, index) => {
       return (
         <li
-          className="hover:underline pr-2.5 whitespace-nowrap text-lg font-sans font-bold items-center text-headMenuText "
+          className="hover:underline pr-1 whitespace-nowrap text-lg font-sans font-bold items-center text-headMenuText "
           key={index}
         >
           <Link href={item.link}>{item.a}</Link>
@@ -27,7 +27,7 @@ const HeaderMenu = () => {
   }
 
   return (
-    <div className=" flex  ">
+    <div className=" flex justify-end invisible md:visible ">
       {/* Меню для десктопа */}
       <ul className=" flex justify-end ">{renderMenu()}</ul>
     </div>
