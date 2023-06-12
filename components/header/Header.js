@@ -1,22 +1,29 @@
-import Image from "next/image"
-import Link from "next/link"
+// import Image from "next/image"
+// import Link from "next/link"
+import HeaderLogo from "./HeaderLogo"
+import HeaderMenu from "./HeaderMenu"
+import HeaderSeting from "./HeaderMenu"
 
 export default function Header() {
-  return (
-    <header className="flex items-center px-4 md:px-12 py-2 justify-between fixed top-0 w-full bg-white z-50 shadow">
-      <Link href="/">
-        {/* <Image src="https://i.ibb.co/McdzmYG/logo-removebg-preview-new.png" width={70} height={70} alt="Logo" /> */}
-        <Image src="/public/images/home/StainlessSteelBoat.png" width={150} height={70} alt="Logo" />
-      </Link>
 
-      <div className="flex items-center space-x-2.5 text-sm">
-        <button className="button bg-blue-600 text-white border-transparent hover:border-blue-600 hover:bg-transparent hover:text-black">
-          Log in
-        </button>
-        <button className="button bg-transparent border-blue-600 hover:bg-blue-600 hover:text-white hover:border-transparent">
-          Sign up
-        </button>
+
+  return (
+    // <header className="flex items-center px-4 md:px-12 py-2 justify-between fixed top-0 w-full bg-white z-50 shadow">
+    // <header className="flex items-center justify-between fixed top-10 h-16 w-full bg-white z-50 ">
+    <header className="dark:bg-slate-800 flex items-center justify-between fixed top-10 h-16 w-full bg-white z-50 ">
+      <div className="flex items-center justify-begin w-full z-50 ">
+        <HeaderLogo />
       </div>
+      <div className="flex items-center justify-end ">
+        {/*рядок меню */}
+        <HeaderMenu />
+        {/* іконка мобільного меню/faList/ */}
+        {/* <MobileMenuIcon mobileMenuOpen={mobileMenuOpen} mobileMenuToggle={mobileMenuToggle} /> */}
+        {/* Налаштування(Теми,Мови)*/}
+        {/* <HeaderSeting /> */}
+        <span className="font-bold  bg-red-400 hover:bg-red-600 py-2 px-4 rounded-full">Тема</span>
+      </div>
+      {/* <div className="flex items-center px-4 md:px-12 py-2 justify-end w-full z-50 ">rrrrrrrrrrrrrrrrrrrrrrr</div> */}
     </header>
   )
 }
