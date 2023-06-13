@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
         <main className="px-1 dark:bg-slate-800 min-h-screen max-w-full mx-auto ">
           {children}
         </main>
-        {/* <Footer/> */}
+        <Footer/>
       </body>
     </html>
   )
