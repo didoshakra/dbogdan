@@ -9,7 +9,7 @@ module.exports = {
   darkMode: "class",
   theme: {
     extend: {
-      borderRadius:{
+      borderRadius: {
         borderRadius: "36px",
       },
       colors: {
@@ -21,24 +21,42 @@ module.exports = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic": "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
-      animation: {
-        blob: "blob 5s infinite",
+      //Затримка анімації: delay-5000
+      transitionDelay: {
+        5000: "5000ms",
       },
+      //Анімація
       keyframes: {
-        blob: {
+        slideHome: {
           "0%": {
-            transform: "opacity(1)",
-          },
-          "45%": {
-            transform: "opacity(1)",
-          },
-          "55%": {
-            transform: "opacity(0)",
+            opacity: 100,
+            // transform: "translateY(0)",
           },
           "100%": {
-            transform: "opacity(1)",
+            opacity: 0,
+            // transform: "translateY(20px)",
           },
         },
+        slideHome1: {
+          "0%": {
+            opacity: 100,
+            // transform: "translateY(0)",
+          },
+          "100%": {
+            opacity: 0,
+            // transform: "translateY(20px)",
+          },
+        },
+      },
+      //   animation-name: slideHome; //ім'я секції анімації
+      //   animation-duration: 5s; //протяжність анімації
+      //   animation-delay: 5s; //Затримка анімації після протяжність анімації
+      //   animation-timing-function: linear; //рівномірна зміна
+      //   animation-iteration-count: infinite; //к-сть повторів/rinfinite нескінченно
+      //   animation-direction: alternate; //Анімація змінює напрямок в кожному циклі
+      animation: {
+        slideHome: "slideHome 5s ease-in-out infinite alternate",
+        slideHome1: "slideHome1 5s 5s ease-in-out  infinite alternate",
       },
     },
   },

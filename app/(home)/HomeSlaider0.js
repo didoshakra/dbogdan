@@ -59,7 +59,7 @@ const HomeSlaider = () => {
         }
         @keyframes coverSlide {
           0% {
-            opacity: 1;
+            opacity: 1; 
           }
           45% {
             opacity: 1;
