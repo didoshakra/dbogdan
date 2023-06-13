@@ -28,7 +28,7 @@ const Footer = () => {
       <div className="pt-10 w-full flex flex-col md:flex-row justify-between items-start">
         {/* <div className="footer-context-item-col"> */}
         <div className="relative flex flex-col justify-start items-start text-left">
-          <h2 className="px-8 flex flex-row justify-center items-center text-lg text-headMenuText">DBogdan</h2>
+          <h2 className="px-4 flex flex-row justify-center items-center text-lg text-headMenuText">DBogdan</h2>
           <ul className="flex justify-between items-center">
             <li className="px-4  flex flex-row justify-start items-center">
               <a href="https://www.facebook.com/profile.php?id=100017742340573">
@@ -39,7 +39,7 @@ const Footer = () => {
         </div>
 
         <div className="relative py-2 flex flex-col justify-start items-start text-left">
-          <h2 className="px-8  flex flex-row justify-center items-center text-lg text-headMenuText">
+          <h2 className="px-4  flex flex-row justify-center items-center text-lg text-headMenuText">
             Є запитання?
           </h2>
           <ul>
