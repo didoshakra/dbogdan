@@ -5,10 +5,6 @@ import Link from "next/link"
 const HeaderMenu = () => {
   const menu = [
     {
-      a: "Головна",
-      link: "/",
-    },
-    {
       a: "Про нас",
       link: "/about",
     },
@@ -27,7 +23,7 @@ const HeaderMenu = () => {
   }
 
   return (
-    <div className=" flex justify-end invisible md:visible ">
+    <div className=" hidden md:mx-1 md:flex md:justify-end   ">
       {/* Меню для десктопа */}
       <ul className=" flex justify-end ">{renderMenu()}</ul>
     </div>

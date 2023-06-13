@@ -20,10 +20,11 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <HeaderTape />
         <Header />
-        <main className="px-1 dark:bg-slate-800 min-h-screen max-w-7xl mx-auto xl:px-0 mt-28">
+        {/* <main className="px-1 dark:bg-slate-800 min-h-screen max-w-7xl mx-auto xl:px-0 mt-28"> */}
+        <main className="px-1 dark:bg-slate-800 min-h-screen max-w-full mx-auto ">
           {children}
         </main>
-        <Footer/>
+        {/* <Footer/> */}
       </body>
     </html>
   )

@@ -6,10 +6,9 @@ import ThemeSwitcher from "./ThemeSwitcher"
 const HeaderSeting = () => {
 
   return (
-    // <div className="headerSeting">
-    <div className="h-16 flex justify-between items-center">
+    <div className=" h-16 flex justify-between items-center">
       {/* Іконки головного меню Seting */}
-      <div className="invisible md:visible">
+      <div className="hidden md:flex">
         {/* тема */}
         <ThemeSwitcher />
       </div>

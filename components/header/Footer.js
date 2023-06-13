@@ -8,7 +8,7 @@ import IconShevronUp from "../../components/ui/icons/IconShevronUp" //^Стрі�
 
 const Footer = () => {
   return (
-    <section className=" p-2 relative">
+    <section className=" relative w-full ">
       {/* <div className="footer-mouse"> */}
       <div className="absolute">
         {/* <a href="#" className="footer-mouse-icon"> */}
@@ -20,25 +20,21 @@ const Footer = () => {
           </div>
         </a>
       </div>
-      {/* </div> */}
       {/* <div className="footer-context-row"> */}
-      <div className="flex flex-row flex-auto justify-between items-start mx-2">
+      <div className="w-full flex flex-row justify-between items-start">
         {/* <div className="footer-context-item-col"> */}
-        <div className="relative w-full flex flex-col justify-start items-start text-left">
+        <div className="relative flex flex-col justify-start items-start text-left">
           <h2 className="flex flex-row justify-center items-center text-headMenuText">DBogdan</h2>
-          {/* <p>В соціальних мережах</p> */}
           <ul className="flex justify-between items-center">
             <li>
               <a href="https://www.facebook.com/profile.php?id=100017742340573">
-                {/* <span className="icon-social"> */}
                 <IconFacebook width="26" height="26" />
-                {/* </span> */}
               </a>
             </li>
           </ul>
         </div>
 
-        <div className="relative w-full flex flex-col justify-start items-start text-left">
+        <div className="relative  flex flex-col justify-start items-start text-left">
           <h2 className="px-2 mx-4 flex flex-row justify-center items-center text-headMenuText">Є запитання?</h2>
           <ul>
             <li className="px-4 mx-2 flex flex-row justify-start items-center">

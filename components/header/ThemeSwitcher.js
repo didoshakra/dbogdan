@@ -9,7 +9,7 @@ const ThemeSwitche = () => {
 
   return (
     // <div className="themeSwitcher">
-    <div className="flex justify-center aling-center ">
+    <div className="mx-1 flex justify-center aling-center ">
       <p
         className=" z-0  flex justify-center aling-center hover:bg-lime-300 rounded-full"
         title="Теми"
