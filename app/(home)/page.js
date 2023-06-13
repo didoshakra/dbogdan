@@ -3,6 +3,11 @@ import { getAllProducts } from "../data"
 // import HomeSlaider from "./HomeSlaider"
 import HomeSlaider1 from "./HomeSlaider1"
 
+export const metadata = {
+  title: "Вироби з нержавйки",
+  description: "Вироби з нержавіючої труби",
+}
+
 export default async function Home() {
   const products = await getAllProducts()
   return (

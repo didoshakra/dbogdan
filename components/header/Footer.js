@@ -28,9 +28,9 @@ const Footer = () => {
       <div className="pt-10 w-full flex flex-col md:flex-row justify-between items-start">
         {/* <div className="footer-context-item-col"> */}
         <div className="relative flex flex-col justify-start items-start text-left">
-          <h2 className="px-2 mx-4 flex flex-row justify-center items-center text-lg text-headMenuText">DBogdan</h2>
+          <h2 className="px-8 flex flex-row justify-center items-center text-lg text-headMenuText">DBogdan</h2>
           <ul className="flex justify-between items-center">
-            <li className="px-4 mx-2 flex flex-row justify-start items-center">
+            <li className="px-4  flex flex-row justify-start items-center">
               <a href="https://www.facebook.com/profile.php?id=100017742340573">
                 <IconFacebook width="26" height="26" />
               </a>
@@ -39,23 +39,23 @@ const Footer = () => {
         </div>
 
         <div className="relative py-2 flex flex-col justify-start items-start text-left">
-          <h2 className="px-2 mx-4 flex flex-row justify-center items-center text-lg text-headMenuText">
+          <h2 className="px-8  flex flex-row justify-center items-center text-lg text-headMenuText">
             Є запитання?
           </h2>
           <ul>
-            <li className="px-4 mx-2 flex flex-row justify-start items-center text-sm">
+            <li className="px-4  flex flex-row justify-start items-center text-sm">
               <IconMapMarker width="15" height="15" colorFill="#000" colorStroke="#000" />
               <span className="px-2"> вул. Гулака 7, Калуш, Україна</span>
             </li>
-            <li className="px-4 mx-2 flex flex-row justify-start items-center text-sm">
+            <li className="px-4  flex flex-row justify-start items-center text-sm">
               <IconPhone width="15" height="15" />
               <span className="px-2">+ 38(050-8580704)</span>
             </li>
-            <li className="px-4 mx-2 flex flex-row justify-start items-center text-sm">
+            <li className="px-4  flex flex-row justify-start items-center text-sm">
               <IconPhone width="15" height="15" />
               <span className="px-2">+ 38(068-7892306)</span>
             </li>
-            <li className="px-4 mx-2 flex flex-row justify-start items-center text-sm">
+            <li className="px-4  flex flex-row justify-start items-center text-sm">
               <IconMail width="15" height="15" />
               <span className="px-2">bogdandrogomirezkiy@gmail.com</span>
             </li>
