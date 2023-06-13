@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
         <main className="px-1 dark:bg-slate-800 min-h-screen max-w-7xl mx-auto xl:px-0 mt-28">
           {children}
         </main>
-        {/* <Footer/> */}
+        <Footer/>
       </body>
     </html>
   )

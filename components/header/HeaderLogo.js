@@ -13,7 +13,7 @@ const HeaderLogo = () => {
       </Link>
       <Link href="/">
         {/* <div className="flex items-center px-4 md:px-12 py-2 justify-begin w-full z-50 shadow">DBogdan</div> */}
-        <div className=" flex text-2xl font-bold ita.lic text-headMenuText items-center px-4 justify-begin">
+        <div className=" flex text-1xl md:text-2xl font-bold italic text-headMenuText items-center px-4 justify-begin">
           DBogdan
         </div>
       </Link>
