@@ -8,6 +8,9 @@ import IconShevronUp from "../../components/ui/icons/IconShevronUp" //^Стрі�
 import IconArrowLeft from "../../components/ui/icons/IconArrowLeft" //^Стрілка вверх
 
 const Footer = () => {
+  const themeType = "light"
+  const colorIcon = themeType === "light" ? "#82AE46" : "red"
+
   return (
     <section className=" relative w-full ">
       {/* <div className="footer-mouse"> */}
@@ -28,35 +31,37 @@ const Footer = () => {
       <div className="pt-10 w-full flex flex-col md:flex-row justify-between items-start">
         {/* <div className="footer-context-item-col"> */}
         <div className="relative flex flex-col justify-start items-start text-left">
-          <h2 className="px-4 flex flex-row justify-center items-center text-lg text-headMenuText">DBogdan</h2>
+          <h2 className="px-4 flex flex-row justify-center items-center text-lg font-bold text-headMenuText">
+            DBogdan
+          </h2>
           <ul className="flex justify-between items-center">
             <li className="px-4  flex flex-row justify-start items-center">
               <a href="https://www.facebook.com/profile.php?id=100017742340573">
-                <IconFacebook width="26" height="26" />
+                <IconFacebook width="26" height="26" colorFill={colorIcon} />
               </a>
             </li>
           </ul>
         </div>
 
         <div className="relative py-2 flex flex-col justify-start items-start text-left">
-          <h2 className="px-4  flex flex-row justify-center items-center text-lg text-headMenuText">
+          <h2 className="px-4  flex flex-row justify-center items-center text-lg font-bold text-headMenuText">
             Є запитання?
           </h2>
           <ul>
             <li className="px-4  flex flex-row justify-start items-center text-sm">
-              <IconMapMarker width="15" height="15" colorFill="#000" colorStroke="#000" />
+              <IconMapMarker width="15" height="15" colorFill={colorIcon} colorStroke={colorIcon} />
               <span className="px-2"> вул. Гулака 7, Калуш, Україна</span>
             </li>
             <li className="px-4  flex flex-row justify-start items-center text-sm">
-              <IconPhone width="15" height="15" />
+              <IconPhone width="15" height="15" colorFill={colorIcon} />
               <span className="px-2">+ 38(050-8580704)</span>
             </li>
             <li className="px-4  flex flex-row justify-start items-center text-sm">
-              <IconPhone width="15" height="15" />
+              <IconPhone width="15" height="15" colorFill={colorIcon} />
               <span className="px-2">+ 38(068-7892306)</span>
             </li>
             <li className="px-4  flex flex-row justify-start items-center text-sm">
-              <IconMail width="15" height="15" />
+              <IconMail width="15" height="15" icon colorFill={colorIcon} colorFill1={colorIcon} />
               <span className="px-2">bogdandrogomirezkiy@gmail.com</span>
             </li>
           </ul>
@@ -65,7 +70,7 @@ const Footer = () => {
       <div className="w-full pt-10 flex flex-row justify-center items-center">
         <div className="flex flex-row justify-center items-center">
           Copyright © {new Date().getFullYear()}
-          <IconHeart width="15" height="15" colorFill="#000" colorStroke="#000" />
+          <IconHeart width="15" height="15" colorFill={colorIcon} colorStroke={colorIcon} />
         </div>
       </div>
     </section>

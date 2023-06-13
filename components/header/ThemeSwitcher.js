@@ -4,7 +4,7 @@ import IconMoon from "../ui/icons/head/IconMoon_border"
 const ThemeSwitche = () => {
 //   const themeType = "dark"
   const themeType = "light"
-  const headIcon = themeType === "light" ? "#82AE46" : "red"
+  const colorIcon = themeType === "light" ? "#82AE46" : "red"
   const iconSize = "25"
 
   return (
@@ -16,9 +16,9 @@ const ThemeSwitche = () => {
         // onClick={themeMenuToggle}
       >
         {themeType === "light" ? (
-          <IconMoon width={iconSize} height={iconSize} colorFill={headIcon} />
+          <IconMoon width={iconSize} height={iconSize} colorFill={colorIcon} />
         ) : (
-          <IconSun width={iconSize} height={iconSize} colorFill={headIcon} />
+          <IconSun width={iconSize} height={iconSize} colorFill={colorIcon} />
         )}
       </p>
     </div>
