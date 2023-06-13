@@ -21,7 +21,7 @@ const Footer = () => {
       </div> */}
       {/* </div> */}
       {/* <div className="footer-context-row"> */}
-      <div className="flex flex-col flex-auto justify-between items-center">
+      <div className="flex flex-row flex-auto justify-between items-center">
         {/* <div className="footer-context-item-col"> */}
         <div className="relative w-full flex flex-col justify-start items-start text-left">
           <h2 className="">DBogdan</h2>
@@ -37,50 +37,32 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className="footer-context-item-col">
-          <h2 className="ftco-heading-2">Є запитання?</h2>
-          <ul className="list-unstyled">
-            <li>
-              <span className="item-questions__icon">
-                <IconMapMarker width="15" height="15" colorFill="#000" colorStroke="#000" />
-              </span>
-              <span className="text"> вул. Гулака 7, Калуш, Україна</span>
+        <div className="relative w-full flex flex-col justify-start items-start text-left">
+          <h2 className="flex flex-row justify-center items-center">Є запитання?</h2>
+          <ul>
+            <li className="px-4 mx-2 flex flex-row justify-start items-center">
+              <IconMapMarker width="15" height="15" colorFill="#000" colorStroke="#000" />
+              <span className="px-2"> вул. Гулака 7, Калуш, Україна</span>
             </li>
-            <li>
-              <a href="#">
-                <span className="item-questions__icon">
-                  <IconPhone width="15" height="15" />
-                </span>
-                <span className="text">+ 38(050-8580704)</span>
-              </a>
+            <li className="px-4 mx-2 flex flex-row justify-start items-center">
+              <IconPhone width="15" height="15" />
+              <span className="px-2">+ 38(050-8580704)</span>
             </li>
-            <li>
-              <a href="#">
-                <span className="item-questions__icon">
-                  <IconPhone width="15" height="15" />
-                </span>
-                <span className="text">+ 38(068-7892306)</span>
-              </a>
+            <li className="px-4 mx-2 flex flex-row justify-start items-center">
+              <IconPhone width="15" height="15" />
+              <span className="px-2">+ 38(068-7892306)</span>
             </li>
-            <li>
-              <a href="#">
-                <span className="item-questions__icon">
-                  <IconMail width="15" height="15" />
-                </span>
-                <span className="text">bogdandrogomirezkiy@gmail.com</span>
-              </a>
+            <li className="px-4 mx-2 flex flex-row justify-start items-center">
+              <IconMail width="15" height="15" />
+              <span className="px-2">bogdandrogomirezkiy@gmail.com</span>
             </li>
           </ul>
         </div>
       </div>
-      <div className="row">
-        <div className="col-md-12 text-center">
-          <div className="footer-copyright-row">
-            <p>
-              Copyright © {new Date().getFullYear()}
-              <IconHeart width="15" height="15" colorFill="#000" colorStroke="#000" />
-            </p>
-          </div>
+      <div className="w-full pt-10 flex flex-row justify-center items-center">
+        <div className="flex flex-row justify-center items-center">
+          Copyright © {new Date().getFullYear()}
+          <IconHeart width="15" height="15" colorFill="#000" colorStroke="#000" />
         </div>
       </div>
     </section>
