@@ -2,6 +2,7 @@ import ProductImage from "../../../components/ProductImage"
 import { notFound } from "next/navigation"
 // import { getProductById } from "../../api/data"
 import { getProductById } from "../../data"
+//Фотки мають бути w254*h266
 
 export default async function ProductPage({ params }) {
   try {
