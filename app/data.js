@@ -46,7 +46,7 @@ export const PRODUCTS = [
   },
   {
     id: 5,
-    title: "Сходи квабрат",
+    title: "Сходи квадрат",
     image: "/images/products/DBShoduKv.jpg",
     // description: "Виготовлений з труб @20. і 15. Опуклі в зовнішню сторону. ВІдшліфовані.",
     // price: 20.0,
