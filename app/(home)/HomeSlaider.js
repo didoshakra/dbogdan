@@ -9,7 +9,7 @@ export default function HomeSlaider() {
         // className="relative w-full h-[580px] animate-slideHome transition"
       >
         <div className="absolute w-full h-full">
-          <Image src="/images/home/DBVorota0.jpg" alt="background image" fill />
+          <Image src="/images/home/DBVorota-900-600.jpg" alt="background image" fill />
           {/* Авторозмір - імпорт свого зображення*/}
           {/* <Image src={BVorota0} alt="background image" /> */}
         </div>
@@ -23,7 +23,7 @@ export default function HomeSlaider() {
         // className="absolute w-full h-[580px] animate-slideHome1"
       >
         <div className="p-0 absolute w-full h-full">
-          <Image src="/images/home/DBVorota1.jpg" alt="background image" fill />
+          <Image src="/images/home/DBVorota1-900-600.jpg" alt="background image" fill />
         </div>
         <div className="relative z-10 flex flex-col items-center justify-center h-full">
           <h1 className="text-4xl font-bold top-4 text-center text-white"> Спроектуємо, виготовимо і встановимо</h1>
