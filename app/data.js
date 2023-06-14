@@ -136,7 +136,7 @@ export const PRODUCTS = [
   {
     id: 16,
     title: "Лавка",
-    image: "/images/products/DBLavka.jpg",
+    image: "/images/products/DBLavka-250-280.jpg",
     description: "Виготовлений з труб @20. і 15. Опуклі в зовнішню сторону. ВІдшліфовані.",
     // price: 20.0,
     // discontProc: 0,
