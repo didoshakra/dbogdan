@@ -14,7 +14,7 @@ export async function getProductById(id) {
 export const PRODUCTS = [
   {
     id: 1,
-    title: "Балкон кутовий",
+    title: "Балкон кутовий з нержавійки",
     image: "/images/products/DBBalkon1.jpg",
     // description: "Виготовлений з труб @20. і 15. Опуклі в зовнішню сторону. ВІдшліфовані.",
     // price: 20.0,
