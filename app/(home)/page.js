@@ -11,7 +11,7 @@ export default async function Home() {
   const products = await getAllProducts()
   return (
     // <main className="min-h-screen max-w-7xl mx-auto px-8 xl:px-0 mt-48">
-    <main className="container mx-auto py-4 ">
+    <main className="container mx-auto">
       <HomeSlaider />
       <section className="flex flex-col py-14 space-y-12 pb-5">
         <h1 className="text-4xl font-bold text-headMenuText text-center">Наші вироби - стандартні і художні</h1>

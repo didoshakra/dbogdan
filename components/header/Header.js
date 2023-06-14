@@ -4,14 +4,10 @@ import HeaderSeting from "./HeaderSeting"
 import MobileMenuIcon from "./MobileMenuIcon"
 
 export default function Header() {
-
-
   return (
-    <header className="px-2 dark:bg-slate-800 flex justify-between items-center  fixed top-16 md:top-6 h-16 w-full bg-white z-50 ">
-    {/* <header className="  bg-red-400 z-50 w-full fixed top-12 md:top-6 h-16 px-0  flex flex-auto justify-between items-center   "> */}
-      {/* <div className="flex items-center justify-begin min-w-[250px] "> */}
+    // <header className="fixed z-50 top-16 px-2 md:top-6 h-16 w-full dark:bg-slate-800 flex justify-between items-center    bg-white  ">
+    <header className="px-2 h-16 w-full  flex justify-between items-center bg-white dark:bg-slate-800  ">
       <HeaderLogo />
-      {/* </div> */}
       <div className=" flex  items-center justify-end">
         {/*рядок меню */}
         <HeaderMenu />

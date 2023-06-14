@@ -9,7 +9,8 @@ const HeaderTape = () => {
 
   return (
     // <div className="headerTape-section">
-    <div className="fixed z-50 top-0 w-full h-16 md:h-6 flex flex-col md:flex-row justify-start md:justify-between bg-headMenuText text-white text-sm ">
+    // <div className="fixed z-50 top-0 w-full h-16 md:h-6 flex flex-col md:flex-row justify-start md:justify-between bg-headMenuText text-white text-sm ">
+    <div className="px-2 w-full h-16 md:h-6 flex flex-col md:flex-row justify-start md:justify-between bg-headMenuText text-white text-sm ">
       <div className=" relative flex items-center justify-between ">
         <div className="relative flex flex-col md:flex-row items-center justify-between ">
           <span className="px-2 flex items-center justify-between text-sm">
