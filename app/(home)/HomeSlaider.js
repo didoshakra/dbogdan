@@ -3,7 +3,7 @@ import Image from "next/image"
 
 export default function HomeSlaider() {
   return (
-    <>
+    <section className="relative">
       <div
         className="absolute w-full h-[580px] animate-slideHome transition"
         // className="relative w-full h-[580px] animate-slideHome transition"
@@ -30,6 +30,6 @@ export default function HomeSlaider() {
           <p className="mt-4 text-3xl text-yellow-200">Якісно і надійно</p>
         </div>
       </div>
-    </>
+    </section>
   )
 }
