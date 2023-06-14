@@ -193,7 +193,7 @@ export const PRODUCTS = [
   {
     id: 23,
     title: "Рушникосушка-кругла труба",
-    image: "/images/products/DBSushilka3.jpg",
+    image: "/images/products/DBSushilka3-250-280.jpg",
     // description: "Виготовлений з труб @20. і 15. Опуклі в зовнішню сторону. ВІдшліфовані.",
     // price: 20.0,
     // discontProc: 0,
@@ -201,7 +201,7 @@ export const PRODUCTS = [
   {
     id: 24,
     title: "Рушникосушка-кругла труба",
-    image: "/images/products/DBSushilka4.jpg",
+    image: "/images/products/DBSushilka4-250-280.jpg",
     // description: "Виготовлений з труб @20. і 15. Опуклі в зовнішню сторону. ВІдшліфовані.",
     // price: 20.0,
     // discontProc: 0,
