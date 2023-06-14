@@ -4,9 +4,16 @@ import { notFound } from "next/navigation"
 import { getProductById } from "../../data"
 //Фотки мають бути w254*h266
 
+// export function generateMetadata({ params }) {
+//   const id = params.name
+//   return {
+//     title: product.title,
+//   }
+// }
+
 export default async function ProductPage({ params }) {
   try {
-    // console.log("*** ProductPage.js/params=", params)
+    console.log("*** ProductPage.js/params=", params)
     const id = params.id
     const product = await getProductById(id)
     // const res = await fetch(`https://fakestoreapi.com/products/${id}`)

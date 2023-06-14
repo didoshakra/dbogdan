@@ -5,7 +5,7 @@ export default function HomeSlaider() {
   return (
     <section className="relative ">
       <div
-        className="absolute w-full h-[300px] md:h-[580px] animate-slideHome transition"
+        className="absolute w-full h-[500px] md:h-[580px] animate-slideHome transition"
         // className="relative w-full h-[580px] animate-slideHome transition"
       >
         <div className="absolute w-full h-full">
@@ -19,7 +19,7 @@ export default function HomeSlaider() {
         </div>
       </div>
       <div
-        className="p-0 relative w-full h-[300px] md:h-[580px] animate-slideHome1"
+        className="p-0 relative w-full h-[500px] md:h-[580px] animate-slideHome1"
         // className="absolute w-full h-[580px] animate-slideHome1"
       >
         <div className="p-0 absolute w-full h-full">
