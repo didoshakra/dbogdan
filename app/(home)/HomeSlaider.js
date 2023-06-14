@@ -26,8 +26,8 @@ export default function HomeSlaider() {
           <Image src="/images/home/DBVorota1.jpg" alt="background image" fill />
         </div>
         <div className="relative z-10 flex flex-col items-center justify-center h-full">
-          <h1 className="text-4xl font-bold top-4 text-center text-white"> Вироби з нержавійки на замовлення</h1>
-          <p className="mt-4 text-3xl text-yellow-200">Якісно і надійно</p>
+          <h1 className="text-4xl font-bold top-4 text-center text-white"> Спроектуємо, виготовимо і встановимо</h1>
+          <p className="mt-4 text-3xl text-yellow-200">Використовуємл тільки сталь AISI 304</p>
         </div>
       </div>
     </section>

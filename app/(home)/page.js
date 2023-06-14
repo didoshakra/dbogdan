@@ -3,8 +3,8 @@ import { getAllProducts } from "../data"
 import HomeSlaider from "./HomeSlaider"
 
 export const metadata = {
-  title: "Вироби з нержавійки",
-  description: "Вироби з нержавіючої труби",
+  title: "Вироби з нержавійки. Калуш",
+  description: "Вироби з нержавйки. Сталь AISI 304. Перила, рушникосушилки, паркани,ворота ",
 }
 
 export default async function Home() {
