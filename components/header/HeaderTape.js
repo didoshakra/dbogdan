@@ -17,7 +17,7 @@ const HeaderTape = () => {
             <IconPhone width={iconSize} height={iconSize} colorFill="white" /> + 38(050-8580704)
           </span>
           <span className="px-2 flex items-center justify-between text-sm">
-            <IconPhone width={iconSize} height={iconSize} colorFill="white" /> + 38(068-7892306)
+            <IconPhone width={iconSize} height={iconSize} colorFill="white" /> + 38(068-7832306)
           </span>
         </div>
         <a className="px-2" href="https://www.facebook.com/profile.php?id=100017742340573">
