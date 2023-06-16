@@ -10,7 +10,8 @@ export default function HomeSlaider() {
       <div className="absolute w-full h-screen animate-slideHome">
         <div className="absolute w-full h-full ">
           <Image
-            src="/images/home/DBVorota-900-600.jpg"
+            // src="/images/home/DBVorota-900-600.jpg"
+            src="/images/home/DBBalkon1-900-600.jpg"
             alt="background image"
             fill
             // sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 66vw"  //не прпцює???
