@@ -14,7 +14,7 @@ const HeaderTape = () => {
       <div className=" relative flex items-center justify-between ">
         <div className="relative flex flex-col md:flex-row items-center justify-between ">
           {/* <span className="px-2 flex items-center justify-between text-sm"> */}
-          <a className="px-2 flex items-center justify-between text-sm" href="tel:+30508580704">
+          <a className="px-2 flex items-center justify-between text-sm" href="tel:+380508580704">
             <IconPhone width={iconSize} height={iconSize} colorFill="white" />
             +38(050-8580704)
           </a>

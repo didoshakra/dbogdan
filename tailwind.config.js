@@ -10,9 +10,13 @@ module.exports = {
   darkMode: "class",
   theme: {
     extend: {
+      width: {
+        wScreenNotHead: "calc(width: 100vw-64)",
+      },
       borderRadius: {
         borderRadius: "36px",
       },
+
       colors: {
         headMenuText: "#82AE46",
         // mainColor: "#050C2A",

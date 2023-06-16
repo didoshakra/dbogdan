@@ -55,7 +55,7 @@ const Footer = () => {
             <li className="px-4  flex flex-row justify-start items-center text-sm">
               <IconPhone width="15" height="15" colorFill={colorIcon} />
               {/* <span className="px-2">+ 38(050-8580704)</span> */}
-              <a className="px-2" href="tel:+30508580704">
+              <a className="px-2" href="tel:+380508580704">
                 + 38(050-8580704)
               </a>
             </li>
