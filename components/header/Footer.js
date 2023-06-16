@@ -5,7 +5,6 @@ import IconPhone from "../../components/ui/icons/social/IconPhone"
 import IconMail from "../../components/ui/icons/social/IconMail"
 import IconFacebook from "../../components/ui/icons/social/IconFacebook"
 import IconShevronUp from "../../components/ui/icons/IconShevronUp" //^Стрілка вверх
-import IconArrowLeft from "../../components/ui/icons/IconArrowLeft" //^Стрілка вверх
 
 const Footer = () => {
   const themeType = "light"
@@ -32,7 +31,7 @@ const Footer = () => {
         {/* <div className="footer-context-item-col"> */}
         <div className="relative flex flex-col justify-start items-start text-left">
           <h2 className="px-4 flex flex-row justify-center items-center text-lg font-bold text-headMenuText">
-            DBogdan
+            DBogdan1
           </h2>
           <ul className="flex justify-between items-center">
             <li className="px-4  flex flex-row justify-start items-center">

@@ -12,8 +12,7 @@ export default function Header() {
         {/*рядок меню */}
         <HeaderMenu />
         {/* іконка мобільного меню/faList/ */}
-        {/* <MobileMenuIcon mobileMenuOpen={mobileMenuOpen} mobileMenuToggle={mobileMenuToggle} /> */}
-        <MobileMenuIcon />
+            <MobileMenuIcon />
         {/* Налаштування(Теми,Мови)*/}
         <HeaderSeting />
       </div>
