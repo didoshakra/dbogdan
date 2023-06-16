@@ -6,15 +6,13 @@ export default function HomeSlaider() {
     <section className="relative ">
       {/* absolute  */}
       {/* <div className="absolute w-full h-[400px] md:h-[580px] animate-slideHome"> */}
-      {/* <div className="absolute w-full h-full md:h-[580px] animate-slideHome"> */}
       <div className="absolute w-full h-screen animate-slideHome">
         <div className="absolute w-full h-full ">
           <Image
-            // src="/images/home/DBVorota-900-600.jpg"
-            src="/images/home/DBBalkon1-900-600.jpg"
+            // src="/images/home/DBBalkon1-900-600.jpg"
+            src="/images/home/DBBalkon1-900-600.webp"
             alt="background image"
             fill
-            // sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 66vw"  //не прпцює???
             // style={{ objectFit: "contain" }} //Збереження пропоруцій і  зміна розмірів картинки
             style={{ objectFit: "cover" }} //Збереження пропоруцій і розмірів з обрізанням картинки
           />
@@ -24,10 +22,10 @@ export default function HomeSlaider() {
           <p className="mt-4 text-center text-3xl  text-yellow-200">Використовуєм тільки із сталі AISI 304</p>
         </div>
       </div>
-      {/* <div className="relative w-full h-[400px] md:h-[580px] animate-slideHome1"> */}
       <div className="relative w-full h-screen animate-slideHome1">
         <div className="absolute w-full h-full ">
-          <Image src="/images/home/DBVorota0-900-600.jpg" alt="background image" fill style={{ objectFit: "cover" }} />
+          {/* <Image src="/images/home/DBVorota0-900-600.jpg" alt="background image" fill style={{ objectFit: "cover" }} /> */}
+          <Image src="/images/home/DBVorota0-900-600.webp" alt="background image" fill style={{ objectFit: "cover" }} />
         </div>
         <div className=" relative z-10 flex flex-col items-center justify-center h-full">
           <h1 className="text-4xl font-bold top-4 text-center text-white"> Вироби з нержавійки на замовлення</h1>
