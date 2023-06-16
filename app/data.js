@@ -76,14 +76,14 @@ export const PRODUCTS = [
     // price: 20.0,
     // discontProc: 0,
   },
-//   {
-//     id: 9,
-//     title: "Тераса",
-//     image: "/images/products/DBTerasa1-250-280.jpg",
-//     // description: "Виготовлений з труб @20. і 15. Опуклі в зовнішню сторону. ВІдшліфовані.",
-//     // price: 20.0,
-//     // discontProc: 30,
-//   },
+  {
+    id: 9,
+    title: "Тераса",
+    image: "/images/products/DBTerasa3-250-280.jpg",
+    // description: "Виготовлений з труб @20. і 15. Опуклі в зовнішню сторону. ВІдшліфовані.",
+    // price: 20.0,
+    // discontProc: 30,
+  },
   {
     id: 10,
     title: "Тераса",
