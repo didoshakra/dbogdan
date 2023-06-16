@@ -1,5 +1,6 @@
 import Image from "next/image"
-// import BVorota0 from "../../public/images/home/DBVorota0.jpg"
+import slidePic from "../../public/images/home/DBBalkon1-900-600.jpg"
+import slidePic1 from "../../public/images/home/DBVorota0-900-600.jpg"
 
 export default function HomeSlaider() {
   return (
@@ -9,7 +10,8 @@ export default function HomeSlaider() {
       <div className="absolute w-full h-screen animate-slideHome">
         <div className="absolute w-full h-full ">
           <Image
-            src="/images/home/DBBalkon1-900-600.jpg"
+            src={slidePic}
+            // src="/images/home/DBBalkon1-900-600.jpg"
             // src="/images/home/DBBalkon1-900-600.webp"
             alt="background image"
             fill
@@ -24,7 +26,8 @@ export default function HomeSlaider() {
       </div>
       <div className="relative w-full h-screen animate-slideHome1">
         <div className="absolute w-full h-full ">
-          <Image src="/images/home/DBVorota0-900-600.jpg" alt="background image" fill style={{ objectFit: "cover" }} />
+          src={slidePic1}
+          {/* <Image src="/images/home/DBVorota0-900-600.jpg" alt="background image" fill style={{ objectFit: "cover" }} /> */}
           {/* <Image src="/images/home/DBVorota0-900-600.webp" alt="background image" fill style={{ objectFit: "cover" }} /> */}
         </div>
         <div className=" relative z-10 flex flex-col items-center justify-center h-full">
