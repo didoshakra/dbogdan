@@ -7,8 +7,7 @@ export default function HomeSlaider() {
       {/* absolute  */}
       {/* <div className="absolute w-full h-[400px] md:h-[580px] animate-slideHome"> */}
       {/* <div className="absolute w-full h-full md:h-[580px] animate-slideHome"> */}
-      {/* <div className="absolute w-full h-screen animate-slideHome"> */}
-      <div className="absolute w-full h-full animate-slideHome">
+      <div className="absolute w-full h-screen animate-slideHome">
         <div className="absolute w-full h-full ">
           <Image
             // src="/images/home/DBVorota-900-600.jpg"
@@ -26,8 +25,7 @@ export default function HomeSlaider() {
         </div>
       </div>
       {/* <div className="relative w-full h-[400px] md:h-[580px] animate-slideHome1"> */}
-      {/* <div className="relative w-full h-screen animate-slideHome1"> */}
-      <div className="relative w-full h-full animate-slideHome1">
+      <div className="relative w-full h-screen animate-slideHome1">
         <div className="absolute w-full h-full ">
           <Image src="/images/home/DBVorota0-900-600.jpg" alt="background image" fill style={{ objectFit: "cover" }} />
         </div>
