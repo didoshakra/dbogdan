@@ -191,22 +191,6 @@ export const PRODUCTS = [
     // discontProc: 0,
   },
   {
-    id: 23,
-    title: "Рушникосушка-кругла труба",
-    image: "/images/products/DBSushilka3-250-280.jpg",
-    // description: "Виготовлений з труб @20. і 15. Опуклі в зовнішню сторону. ВІдшліфовані.",
-    // price: 20.0,
-    // discontProc: 0,
-  },
-  {
-    id: 24,
-    title: "Рушникосушка-кругла труба",
-    image: "/images/products/DBSushilka4-250-280.jpg",
-    // description: "Виготовлений з труб @20. і 15. Опуклі в зовнішню сторону. ВІдшліфовані.",
-    // price: 20.0,
-    // discontProc: 0,
-  },
-  {
     id: 25,
     title: "Балкон плюс навіс",
     image: "/images/products/DBBalkonNavis-250-280.jpg",
