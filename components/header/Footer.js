@@ -31,7 +31,7 @@ const Footer = () => {
         {/* <div className="footer-context-item-col"> */}
         <div className="relative flex flex-col justify-start items-start text-left">
           <h2 className="px-4 flex flex-row justify-center items-center text-lg font-bold text-headMenuText">
-            DBogdan1
+            DBogdan
           </h2>
           <ul className="flex justify-between items-center">
             <li className="px-4  flex flex-row justify-start items-center">
