@@ -26,8 +26,13 @@ export default function HomeSlaider() {
       </div>
       <div className="relative w-full h-screen animate-slideHome1">
         <div className="absolute w-full h-full ">
-          src={slidePic1}
-          {/* <Image src="/images/home/DBVorota0-900-600.jpg" alt="background image" fill style={{ objectFit: "cover" }} /> */}
+          <Image
+            src={slidePic1}
+            // src="/images/home/DBVorota0-900-600.jpg"
+            alt="background image"
+            fill
+            style={{ objectFit: "cover" }}
+          />
           {/* <Image src="/images/home/DBVorota0-900-600.webp" alt="background image" fill style={{ objectFit: "cover" }} /> */}
         </div>
         <div className=" relative z-10 flex flex-col items-center justify-center h-full">
