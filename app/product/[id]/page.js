@@ -13,7 +13,6 @@ import { getProductById } from "../../data"
 
 export default async function ProductPage({ params }) {
   try {
-    console.log("*** ProductPage.js/params=", params)
     const id = params.id
     const product = await getProductById(id)
     // const res = await fetch(`https://fakestoreapi.com/products/${id}`)
