@@ -9,8 +9,8 @@ export default function HomeSlaider() {
       <div className="absolute w-full h-screen animate-slideHome">
         <div className="absolute w-full h-full ">
           <Image
-            // src="/images/home/DBBalkon1-900-600.jpg"
-            src="/images/home/DBBalkon1-900-600.webp"
+            src="/images/home/DBBalkon1-900-600.jpg"
+            // src="/images/home/DBBalkon1-900-600.webp"
             alt="background image"
             fill
             // style={{ objectFit: "contain" }} //Збереження пропоруцій і  зміна розмірів картинки
@@ -24,8 +24,8 @@ export default function HomeSlaider() {
       </div>
       <div className="relative w-full h-screen animate-slideHome1">
         <div className="absolute w-full h-full ">
-          {/* <Image src="/images/home/DBVorota0-900-600.jpg" alt="background image" fill style={{ objectFit: "cover" }} /> */}
-          <Image src="/images/home/DBVorota0-900-600.webp" alt="background image" fill style={{ objectFit: "cover" }} />
+          <Image src="/images/home/DBVorota0-900-600.jpg" alt="background image" fill style={{ objectFit: "cover" }} />
+          {/* <Image src="/images/home/DBVorota0-900-600.webp" alt="background image" fill style={{ objectFit: "cover" }} /> */}
         </div>
         <div className=" relative z-10 flex flex-col items-center justify-center h-full">
           <h1 className="text-4xl font-bold top-4 text-center text-white"> Вироби з нержавійки на замовлення</h1>
