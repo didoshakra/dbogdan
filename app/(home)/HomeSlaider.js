@@ -7,7 +7,8 @@ export default function HomeSlaider() {
     <section className="relative ">
       {/* absolute  */}
       {/* <div className="absolute w-full h-[400px] md:h-[580px] animate-slideHome"> */}
-      <div className="absolute w-full h-screen animate-slideHome">
+      {/* <div className="absolute w-full h-screen animate-slideHome"> */}
+      <div className="absolute w-full h-[calc(100vh-128px)] md:[calc(100vh-88px)] animate-slideHome">
         <div className="absolute w-full h-full ">
           <Image
             src={slidePic}
@@ -24,7 +25,8 @@ export default function HomeSlaider() {
           <p className="mt-4 text-center text-3xl  text-yellow-200">Використовуєм тільки із сталі AISI 304</p>
         </div>
       </div>
-      <div className="relative w-full h-screen animate-slideHome1">
+      {/* <div className="relative w-full h-screen animate-slideHome1"> */}
+      <div className="relative w-full h-[calc(100vh-128px)] md:[calc(100vh-88px)] animate-slideHome1">
         <div className="absolute w-full h-full ">
           <Image
             src={slidePic1}
