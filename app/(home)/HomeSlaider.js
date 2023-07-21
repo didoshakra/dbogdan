@@ -1,6 +1,7 @@
 import Image from "next/image"
 import slidePic from "../../public/images/home/DBBalkon1-900-600.jpg"
-import slidePic1 from "../../public/images/home/DBVorota0-900-600.jpg"
+// import slidePic1 from "../../public/images/home/DBVorota0-900-600.jpg"
+import slidePic1 from "../../public/images/home/Vorota_klasuka-900-600.jpg"
 
 export default function HomeSlaider() {
   return (
