@@ -34,6 +34,7 @@ export default function HomeSlaider() {
             // src="/images/home/DBVorota0-900-600.jpg"
             alt="background image"
             fill
+            // style={{ objectFit: "contain" }} //Збереження пропоруцій і  зміна розмірів картинки
             style={{ objectFit: "cover" }}
           />
           {/* <Image src="/images/home/DBVorota0-900-600.webp" alt="background image" fill style={{ objectFit: "cover" }} /> */}

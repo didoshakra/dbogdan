@@ -190,12 +190,100 @@ export const PRODUCTS = [
     // price: 20.0,
     // discontProc: 0,
   },
+  //20230721
+  {
+    id: 23,
+    title: "Балкон",
+    image: "/images/products/20230721/Balkon.jpg",
+  },
+  {
+    id: 24,
+    title: "Балкон",
+    image: "/images/products/20230721/Balkon1.jpg",
+  },
   {
     id: 25,
-    title: "Балкон плюс навіс",
-    image: "/images/products/DBBalkonNavis-250-280.jpg",
-    description: "Виготовлений з труб @20. і 15. Опуклі в зовнішню сторону. ВІдшліфовані.",
-    // price: 20.0,
-    // discontProc: 0,
+    title: "Огорожа",
+    image: "/images/products/20230721/Ogoroga.jpg",
+  },
+  {
+    id: 26,
+    title: "Огорожа",
+    image: "/images/products/20230721/Ogoroga1.jpg",
+  },
+  {
+    id: 27,
+    title: "Огорожа",
+    image: "/images/products/20230721/Ogoroga2.jpg",
+  },
+  {
+    id: 28,
+    title: "Огорожа",
+    image: "/images/products/20230721/Ogoroga3.jpg",
+  },
+  {
+    id: 29,
+    title: "Огорожа",
+    image: "/images/products/20230721/Ogoroga4.jpg",
+  },
+  {
+    id: 30,
+    title: "Огорожа",
+    image: "/images/products/20230721/Ogoroga5.jpg",
+  },
+  {
+    id: 31,
+    title: "Огорожа",
+    image: "/images/products/20230721/Ogoroga6.jpg",
+  },
+  {
+    id: 32,
+    title: "Огорожа",
+    image: "/images/products/20230721/Ogoroga7.jpg",
+  },
+  {
+    id: 33,
+    title: "Перила",
+    image: "/images/products/20230721/Perula.jpg",
+  },
+  {
+    id: 34,
+    title: "Перила",
+    image: "/images/products/20230721/Perula1.jpg",
+  },
+  {
+    id: 35,
+    title: "Перила",
+    image: "/images/products/20230721/Perula2.jpg",
+  },
+  {
+    id: 36,
+    title: "Перила",
+    image: "/images/products/20230721/Perula3.jpg",
+  },
+  {
+    id: 37,
+    title: "Перила",
+    image: "/images/products/20230721/Perula4.jpg",
+  },
+  {
+    id: 38,
+    title: "Перила",
+    image: "/images/products/20230721/Perula5.jpg",
+  },
+  {
+    id: 39,
+    title: "Варота",
+    image: "/images/products/20230721/Vorota_klasuka.jpg",
+  },
+  {
+    id: 40,
+    title: "Варота",
+    image: "/images/products/20230721/Vorota_krula.jpg",
+  },
+  {
+    id: 41,
+    title: "Варота",
+    image: "/images/products/20230721/Vorota1.jpg",
   },
 ]
