@@ -21,6 +21,21 @@ export const PRODUCTS = [
     // discontProc: 0,
   },
   {
+    id: 1,
+    title: "Балкон ",
+    image: "/images/products/20240201/balkon-zmii-250-190.jpg",
+  },
+  {
+    id: 1,
+    title: "Балкон-сходи",
+    image: "/images/products/20240201/balkon-shodu-250-190.jpg",
+  },
+  {
+    id: 1,
+    title: "Балкон-монтаж",
+    image: "/images/products/20240201/mont-balkon-250-190.jpg",
+  },
+  {
     id: 2,
     title: " Балкон трапеція",
     image: "/images/products/DBBalkon2-250-280.jpg",
